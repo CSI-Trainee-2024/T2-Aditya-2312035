@@ -1,0 +1,70 @@
+.workout-stats {
+    margin-top: 2rem;
+    background-color: #A4F3DE;
+    padding: 3%;
+    border-radius: 1rem;
+    border-right: #222831 8px solid;
+    border-bottom: #222831 8px solid;
+    margin-bottom: 10%;
+  }
+
+  .table-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.tableRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+#goBackBtn{
+    height: 2.5rem;
+    width: fit-content;
+    padding: 0 20px;
+    font-size: 17px;
+    background-color: #FBB400;
+    border-right: #222831 4px solid;
+    border-bottom: #222831 4px solid;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#goBackBtn:active{
+    border: none;
+    transition: 0.1s all ease-in-out;
+}
+
+#newSession:active{
+    border: none;
+    transition: 0.1s all ease-in-out;
+}
+
+.responsive-table{
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .table-header {
+      background-color: #FBB400;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      border: #222831 solid 2px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-left: -1.5rem;
+    }
+    .tableRow {
+      border: #222831 solid 2px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-left: -1.5rem;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+    }
+}
