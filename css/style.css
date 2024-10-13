@@ -36,14 +36,20 @@ body{
 .container{
     background-color: #A4F3DE;
     margin-top: 5vh;
-    display: flex;
+    /* display: flex; */
     height: clamp(0.8rem,10vw,4rem);
     width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 0.6rem;
     box-shadow: 0.4rem 0.4rem 0rem 0.2rem black;
+}
+
+.c1{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .c1 input{
@@ -87,4 +93,61 @@ body{
     .c1 button{
         transition: 0.5s;
     }
+
+    .c1{
+        padding-top: 0.4rem;
+        transition: 0.2s;
+    }
 }
+
+.tableRow{
+    display: flex;
+}
+
+.deleteBtn {
+    height: 2.5rem;
+    width: fit-content;
+    padding: 0 20px;
+    font-size: 17px;
+    border: none;
+    background-color: #FBB400;
+    border-right: #222831 4px solid;
+    border-bottom: #222831 4px solid;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.1s all ease-in-out;
+  }
+  
+  .deleteBtn:active {
+    border: none;
+    transition: 0.1s all ease-in-out;
+  }
+
+  .table {
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .tableRow {
+      border: #222831 solid 2px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-left: -1.5rem;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      background-color: #A4F3DE;
+    }
+    .col1 {
+      flex-basis: 80%;
+    }
+    .col2 {
+      flex-basis: 10%;
+    }
+    .col3 {
+      flex-basis: 10%;
+    }
+  }

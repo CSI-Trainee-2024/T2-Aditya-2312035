@@ -11,17 +11,21 @@
     <article>
         <div class="header">
             <h1>Track Your Reps & Time Efficiently</h1>
-            <button>Begin Workout <i class="fa-solid fa-circle-play"></i></button>
+            <button id="beginWorkout">Begin Workout <i class="fa-solid fa-circle-play"></i></button>
         </div>
 
         <div class="container">
             <div class="c1">
-                <input type="text" placeholder="Add Your Exercise" class="addExe">
-                <input type="time" placeholder="Specify The Time">
-                <button>Add To Workout Plan</button>
+                <input type="text" id="workout" placeholder="Add Your Exercise" class="addExe">
+                <input type="time" id="timeLimit" placeholder="Specify The Time">
+                <button id="addWorkoutBtn">Add To Workout Plan</button>
             </div>
+            <br>
+            <br>
             <hr>
-            <div class="c2"></div>
+            <div class="c2">
+                <ul class="table"></ul>
+            </div>
         </div>
     </article>
     <!-- <button disabled>End Workout</button> -->
